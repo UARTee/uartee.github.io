@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" fill="none">
+  <title>UARTee avatar</title>
+  <rect width="512" height="512" fill="#E65324"/>
+  <path d="M104 256h136m0 0V144h144M240 256v112h144" stroke="#FAF9F6" stroke-width="40" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="384" cy="144" r="32" fill="#FAF9F6"/>
+  <circle cx="384" cy="368" r="32" fill="#232521"/>
+</svg>

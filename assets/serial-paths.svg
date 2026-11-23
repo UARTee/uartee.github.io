@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="440" viewBox="0 0 600 440" fill="none">
+  <title>UARTee serial signal paths</title>
+  <desc>A conceptual connection diagram, not a rendering of the final hardware. USB branches through UARTee into two UART channels.</desc>
+  <defs>
+    <pattern id="grid" width="22" height="22" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1" fill="#DCDDD3"/></pattern>
+    <linearGradient id="fade" x1="25" y1="0" x2="575" y2="0" gradientUnits="userSpaceOnUse"><stop stop-color="#FAF9F6"/><stop offset=".2" stop-color="#FAF9F6" stop-opacity="0"/><stop offset=".8" stop-color="#FAF9F6" stop-opacity="0"/><stop offset="1" stop-color="#FAF9F6"/></linearGradient>
+  </defs>
+  <rect x="24" y="24" width="552" height="392" rx="24" fill="url(#grid)"/>
+  <rect x="24" y="24" width="552" height="392" fill="url(#fade)"/>
+  <circle cx="300" cy="218" r="142" stroke="#E4E4DB"/>
+  <circle cx="300" cy="218" r="110" stroke="#E4E4DB" stroke-dasharray="3 7"/>
+  <path d="M58 218h128m0 0h48m132 0h23q20 0 20-20v-61q0-20 20-20h92m-155 101h23q20 0 20 20v61q0 20 20 20h92" stroke="#D4D5CA" stroke-width="7" stroke-linecap="round"/>
+  <path d="M58 218h128m180 0h23q20 0 20-20v-61q0-20 20-20h92" stroke="#E65324" stroke-width="4" stroke-linecap="round"/>
+  <path d="M366 218h23q20 0 20 20v61q0 20 20 20h92" stroke="#232521" stroke-width="4" stroke-linecap="round"/>
+  <rect x="182" y="147" width="188" height="146" rx="18" fill="#EAE9E0"/>
+  <rect x="178" y="140" width="188" height="146" rx="18" fill="#FAF9F6" stroke="#232521" stroke-width="2"/>
+  <path d="M178 169v87" stroke="#E65324" stroke-width="4"/>
+  <rect x="166" y="200" width="20" height="33" rx="4" fill="#232521"/>
+  <path d="M170 207v19" stroke="#FAF9F6" stroke-width="2"/>
+  <text x="206" y="180" fill="#77796F" font-size="9" font-family="Consolas,monospace" letter-spacing="2">UARTee / CONNECT</text>
+  <path d="M210 216h25v-14h26v29h25v-29h26v14h25" stroke="#E65324" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="211" cy="257" r="3" fill="#E65324"/>
+  <circle cx="224" cy="257" r="3" fill="#232521"/>
+  <text x="244" y="260" fill="#77796F" font-size="8" font-family="Consolas,monospace" letter-spacing="1">DUAL / SHARE / TAP</text>
+  <circle cx="58" cy="218" r="7" fill="#FAF9F6" stroke="#E65324" stroke-width="3"/>
+  <circle cx="521" cy="117" r="7" fill="#FAF9F6" stroke="#E65324" stroke-width="3"/>
+  <circle cx="521" cy="319" r="7" fill="#FAF9F6" stroke="#232521" stroke-width="3"/>
+  <text x="43" y="250" fill="#65675F" font-size="10" font-family="Consolas,monospace" letter-spacing="1">USB</text>
+  <text x="458" y="95" fill="#B83C15" font-size="10" font-family="Consolas,monospace" letter-spacing="1">UART A</text>
+  <text x="458" y="350" fill="#65675F" font-size="10" font-family="Consolas,monospace" letter-spacing="1">UART B</text>
+</svg>

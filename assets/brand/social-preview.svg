@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640" fill="none">
+  <title>UARTee - Two UARTs. Three ways to connect.</title>
+  <defs>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r="1.2" fill="#DCDDD3"/></pattern>
+  </defs>
+  <rect width="1280" height="640" fill="#FAF9F6"/>
+  <rect x="700" y="0" width="580" height="640" fill="url(#grid)"/>
+  <rect x="0" y="0" width="1280" height="10" fill="#E65324"/>
+
+  <g transform="translate(88 96)">
+    <rect width="72" height="72" rx="16" fill="#E65324"/>
+    <path d="M15 36h19m0 0V20h20M34 36v16h20" stroke="#FAF9F6" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="54" cy="20" r="4.5" fill="#FAF9F6"/>
+    <circle cx="54" cy="52" r="4.5" fill="#232521"/>
+    <text x="96" y="52" fill="#232521" font-family="Segoe UI, Arial, sans-serif" font-size="48" font-weight="700" letter-spacing="-2">UART<tspan fill="#E65324">ee</tspan></text>
+  </g>
+
+  <text x="88" y="300" fill="#232521" font-family="Segoe UI, Arial, sans-serif" font-size="66" font-weight="600" letter-spacing="-3">Two UARTs.</text>
+  <text x="88" y="378" fill="#E65324" font-family="Segoe UI, Arial, sans-serif" font-size="66" font-weight="600" letter-spacing="-3">Three ways to connect.</text>
+  <text x="90" y="438" fill="#65675F" font-family="Segoe UI, Arial, sans-serif" font-size="24">Dual · Share · Tap USB-to-UART adapter</text>
+
+  <rect x="88" y="512" width="214" height="40" rx="20" fill="#232521"/>
+  <circle cx="114" cy="532" r="5" fill="#E65324"/>
+  <text x="130" y="538" fill="#FAF9F6" font-family="Consolas, monospace" font-size="16" letter-spacing="2">COMING SOON</text>
+  <text x="326" y="538" fill="#65675F" font-family="Consolas, monospace" font-size="16" letter-spacing="1">github.com/UARTee</text>
+
+  <g transform="translate(730 150)">
+    <path d="M10 170h150m130 0h30q24 0 24-24V82q0-24 24-24h110m-188 112h30q24 0 24 24v64q0 24 24 24h110" stroke="#D4D5CA" stroke-width="9" stroke-linecap="round"/>
+    <path d="M10 170h150m130 0h30q24 0 24-24V82q0-24 24-24h110" stroke="#E65324" stroke-width="5" stroke-linecap="round"/>
+    <path d="M290 170h30q24 0 24 24v64q0 24 24 24h110" stroke="#232521" stroke-width="5" stroke-linecap="round"/>
+    <rect x="160" y="110" width="130" height="120" rx="18" fill="#FAF9F6" stroke="#232521" stroke-width="2.5"/>
+    <path d="M160 135v70" stroke="#E65324" stroke-width="5"/>
+    <path d="M180 172h18v-14h20v28h20v-28h20v14h14" stroke="#E65324" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="10" cy="170" r="9" fill="#FAF9F6" stroke="#E65324" stroke-width="4"/>
+    <circle cx="482" cy="58" r="9" fill="#FAF9F6" stroke="#E65324" stroke-width="4"/>
+    <circle cx="482" cy="282" r="9" fill="#FAF9F6" stroke="#232521" stroke-width="4"/>
+    <text x="-6" y="214" fill="#65675F" font-family="Consolas, monospace" font-size="15" letter-spacing="1">USB</text>
+    <text x="400" y="34" fill="#B83C15" font-family="Consolas, monospace" font-size="15" letter-spacing="1">UART A</text>
+    <text x="400" y="322" fill="#65675F" font-family="Consolas, monospace" font-size="15" letter-spacing="1">UART B</text>
+  </g>
+</svg>
